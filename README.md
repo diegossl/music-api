@@ -10,6 +10,8 @@ Para executar o projeto, será necessário instalar as dependências digitando o
 yarn install
 ```
 
+Em seguida, crie um arquivo chamado **.env** e copie para ele o conteúdo do arquivo **.env.exemple**, que já existe na raiz do projeto. Após isso preencha os campos com suas credenciais. 
+
 ### Uso
 
 Para executar o projeto digite o seguinte comando no terminal:
@@ -30,7 +32,7 @@ Basta enviar para essas rotas uma requisição com um JSON contendo o nome do ar
 
 ```javascript
 {
-	"artistName": "Bon Jovi"
+	"artistName": "Ivete Sangalo"
 }
 ```
 ### Exemplo de saída de dados: Artista
