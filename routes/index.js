@@ -1,8 +1,9 @@
 const express = require('express')
+const Gateway = require('../api/Gateway')
+
 const router = express.Router()
 
-router.get('/', function (req, res, next) {
-  res.send('Express')
-})
+router.post('/artist/info', Gateway.getArtistInfo)
+router.post('/artist/albums', Gateway.getAlbumsByArtist)
 
 module.exports = router
