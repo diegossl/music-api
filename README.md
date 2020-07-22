@@ -1,6 +1,6 @@
 # API Musicfy
 
-A API Musicfy é uma ferramente de coleta de informações usando a Web API do Spotify. Com ela é possível extrair informações sobre artistas e sua discografia.
+A API Musicfy é uma ferramenta de coleta de informações usando a Web API do Spotify. Com ela é possível extrair informações sobre artistas e sua discografia.
 
 ## Setup
 
