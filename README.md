@@ -1,41 +1,41 @@
-# API Musicfy
+# Musicfy API
 
-A API Musicfy é uma ferramenta de coleta de informações usando a Web API do Spotify. Com ela é possível extrair informações sobre artistas e sua discografia.
+The Musicfy API is an information collection tool using a Spotify web API. With it it is possible to extract information about artists and their discography.
 
 ## Setup
 
-Para executar o projeto, será necessário instalar as dependências digitando o seguinte comando no terminal:
+To execute the project, it will be necessary to install the dependencies by typing the following command in the terminal:
 
 ```bash
 yarn install
 ```
 
-Em seguida, crie um arquivo chamado **.env** e copie para ele o conteúdo do arquivo **.env.exemple**, que já existe na raiz do projeto. Após isso preencha os campos com suas credenciais. 
+Then create a file called **.env** and copy the contents of the file **.env.exemple** to it, which already exists at the root of the project. After that, fill in the fields with your credentials.
 
-### Uso
+### Use
 
-Para executar o projeto digite o seguinte comando no terminal:
+To execute the project, type the following command in the terminal:
 
 ```bash
 yarn start
 ```
 
-Agora o sistema está pronto para ser utilizado através das rotas:
+The system is now ready to be used via the routes:
 
 [http://localhost:3000/artist/info](http://localhost:3000/artist/info)
 
 [http://localhost:3000/artist/albums](http://localhost:3000/artist/albums)
 
-Basta enviar para essas rotas uma requisição com um JSON contendo o nome do artista.
+Just send a request for these routes with a JSON containing the artist's name.
 
-### Exemplo de entrada de dados:
+### Example of data entry:
 
 ```javascript
 {
 	"artistName": "Ivete Sangalo"
 }
 ```
-### Exemplo de saída de dados: Artista
+### Example output: Artist
 
 ```javascript
 {
@@ -53,7 +53,7 @@ Basta enviar para essas rotas uma requisição com um JSON contendo o nome do ar
 }
 ```
 
-### Exemplo de saída de dados: Albuns
+### Example output: Albuns
 
 ```javascript
 [
@@ -180,6 +180,6 @@ Basta enviar para essas rotas uma requisição com um JSON contendo o nome do ar
 ]
 ```
 
-## Licença
+## License
 
 MIT
