@@ -7,7 +7,7 @@ module.exports = {
       const artistInfo = await ArtistService.getArtistInfo(artistName)
       return response.status(200).send(artistInfo)
     } catch (error) {
-      return response.status(500).send('Internal system error.')
+      return response.status(500).send('Internal system error')
     }
   },
 
@@ -17,7 +17,7 @@ module.exports = {
       const artistAlbums = await ArtistService.getAlbumsByArtist(artistName)
       return response.status(200).send(artistAlbums)
     } catch (error) {
-      return response.status(500).send('Internal system error.')
+      return response.status(500).send('Internal system error')
     }
   }
 }
