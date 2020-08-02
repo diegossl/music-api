@@ -9,15 +9,5 @@ module.exports = {
     } catch (error) {
       return response.status(500).send('Internal system error')
     }
-  },
-
-  async getAlbumsByArtist (request, response) {
-    try {
-      const artistName = request.body.artistName
-      const artistAlbums = await ArtistService.getAlbumsByArtist(artistName)
-      return response.status(200).send(artistAlbums)
-    } catch (error) {
-      return response.status(500).send('Internal system error')
-    }
   }
 }
