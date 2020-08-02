@@ -3,6 +3,6 @@ const Gateway = require('../api/Gateway')
 
 const router = express.Router()
 
-router.post('/artist/info', Gateway.getArtistInfo)
+router.get('/artist/:artistName', Gateway.getArtistInfo)
 
 module.exports = router

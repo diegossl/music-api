@@ -12,6 +12,10 @@ yarn install
 
 Then create a file called **.env** and copy the contents of the file **.env.exemple** to it, which already exists at the root of the project. After that, fill in the fields with your credentials.
 
+Credentials can be obtained from the following website:
+
+[https://developer.spotify.com/documentation/web-api](https://developer.spotify.com/documentation/web-api)
+
 ### Use
 
 To execute the project, type the following command in the terminal:
@@ -22,16 +26,14 @@ yarn start
 
 The system is now ready to be used via the routes:
 
-[http://localhost:3000/artist/info](http://localhost:3000/artist/info)
+[http://localhost:3000/artist](http://localhost:3000/artist)
 
 Just send a request for these routes with a JSON containing the artist's name.
 
 ### Example of data entry:
 
-```javascript
-{
-  "artistName": "Ivete Sangalo"
-}
+```bash
+GET /artist/Ivete Sangalo
 ```
 ### Example output: Artist
 
