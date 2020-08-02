@@ -24,8 +24,6 @@ The system is now ready to be used via the routes:
 
 [http://localhost:3000/artist/info](http://localhost:3000/artist/info)
 
-[http://localhost:3000/artist/albums](http://localhost:3000/artist/albums)
-
 Just send a request for these routes with a JSON containing the artist's name.
 
 ### Example of data entry:
